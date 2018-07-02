@@ -4,6 +4,18 @@
     android:layout_height="match_parent"
     tools:context=".SimpleDhtActivity" >
 
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:maxLines="5"
+        android:text="Type to Compose..">
+
+        <requestFocus />
+    </EditText>
+
     <Button
         android:id="@+id/button1"
         android:layout_width="wrap_content"
@@ -39,5 +51,13 @@
         android:gravity="bottom"
         android:maxLines="17"
         android:scrollbars="vertical" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:text="Send" />
 
 </RelativeLayout>
